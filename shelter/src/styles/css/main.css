@@ -255,4 +255,35 @@ p {
 .ourFriends__btn:hover {
   background-color: #FDDCC4;
   transition: 0.3s;
+}
+
+.help__title {
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.help__list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 51px 120px;
+  justify-content: center;
+}
+
+.help__item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.help__img {
+  margin-bottom: 30px;
+  background-size: cover;
+  max-width: 60px;
+}
+
+.help__item__title {
+  font-size: 20px;
+  line-height: 115%;
+  letter-spacing: 0.06em;
+  font-weight: 400;
 }/*# sourceMappingURL=main.css.map */
