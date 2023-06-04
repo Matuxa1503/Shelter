@@ -2,21 +2,21 @@
 	&__content {
 		width: 100%;
 		display: flex;
+		justify-content: center;
 		align-items: center;
+		margin-top: 10px;
 	}
 	&__left {
-		width: 50%;
+		margin-left: 167px;
 	}
 		&__img {
-		position: relative;
-		top: 50%;
-		left: 30%;
 		max-width: 100%;
 		height: auto;
 		background-size: cover;
 	}
 	&__right {
 		width: 50%;
+		margin-left: 120px;
 	}
 	&__title {
 		width: 51%;

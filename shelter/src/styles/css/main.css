@@ -32,7 +32,6 @@ h1, h2, h3, h4, h5, h6 {
 
 a, a:visited {
   text-decoration: none;
-  color: inherit;
 }
 
 p {
@@ -169,21 +168,21 @@ p {
 .about__content {
   width: 100%;
   display: flex;
+  justify-content: center;
   align-items: center;
+  margin-top: 10px;
 }
 .about__left {
-  width: 50%;
+  margin-left: 167px;
 }
 .about__img {
-  position: relative;
-  top: 50%;
-  left: 30%;
   max-width: 100%;
   height: auto;
   background-size: cover;
 }
 .about__right {
   width: 50%;
+  margin-left: 120px;
 }
 .about__title {
   width: 51%;
@@ -261,29 +260,86 @@ p {
   text-align: center;
   margin-bottom: 60px;
 }
-
 .help__list {
   display: flex;
   flex-wrap: wrap;
   gap: 51px 120px;
   justify-content: center;
 }
-
 .help__item {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
-
-.help__img {
+.help__item__img {
   margin-bottom: 30px;
   background-size: cover;
   max-width: 60px;
 }
-
 .help__item__title {
   font-size: 20px;
   line-height: 115%;
   letter-spacing: 0.06em;
   font-weight: 400;
+}
+
+.inAddition {
+  background-color: #F6F6F6;
+}
+.inAddition__content {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.inAddition__img {
+  max-width: 100%;
+  height: auto;
+  background-size: cover;
+  margin-left: -20px;
+}
+.inAddition__right {
+  max-width: 30%;
+  margin-left: 30px;
+}
+.inAddition__subtitle {
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 110%;
+  letter-spacing: 0.06em;
+  margin: 20px 0;
+}
+.inAddition__card {
+  display: inline-block;
+  background-color: #F1CDB3;
+  color: #545454;
+  width: 349px;
+  height: 43px;
+  border-radius: 9px;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+.inAddition__card:hover {
+  background-color: #FDDCC4;
+  transition: 0.3s;
+}
+.inAddition__card__content {
+  display: flex;
+  width: 100%;
+  padding: 10px 15px;
+}
+.inAddition__card__num {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 23px;
+  letter-spacing: 0.06em;
+  margin-left: 14px;
+}
+.inAddition__text {
+  font-family: Arial;
+  font-size: 12px;
+  font-style: italic;
+  font-weight: 400;
+  line-height: 18px;
+  color: #B2B2B2;
 }/*# sourceMappingURL=main.css.map */
