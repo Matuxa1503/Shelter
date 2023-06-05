@@ -32,6 +32,7 @@ h1, h2, h3, h4, h5, h6 {
 
 a, a:visited {
   text-decoration: none;
+  cursor: pointer;
 }
 
 p {
@@ -44,7 +45,7 @@ p {
   margin: 0 auto;
 }
 
-.marginBlock {
+.marginBlockDef {
   padding: 80px 0 100px;
 }
 
@@ -54,6 +55,24 @@ p {
   line-height: 130%;
   letter-spacing: 0.06em;
   color: #545454;
+}
+
+.footerBlockDef {
+  margin-top: 16px;
+}
+
+.footerPosDef {
+  display: flex;
+  align-items: center;
+  color: #F1CDB3;
+}
+
+.footerStyleDef {
+  margin-left: 20px;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 23px;
+  letter-spacing: 0.06em;
 }
 
 .header {
@@ -342,4 +361,48 @@ p {
   font-weight: 400;
   line-height: 18px;
   color: #B2B2B2;
+}
+
+.footer {
+  background: url("../../../img/header__startScreen/background__start.png"), linear-gradient(130deg, rgb(91, 72, 58), rgb(38, 36, 37), rgb(33, 31, 32));
+}
+.footer__position {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+.footer__content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 740px;
+  padding: 40px 0 60px;
+}
+.footer__contacts {
+  max-width: 279px;
+}
+.footer__title {
+  font-size: 35px;
+  font-weight: 400;
+  line-height: 45px;
+  letter-spacing: 0.06em;
+  color: #fff;
+}
+.footer__linkEmail {
+  margin: 40px 0;
+}
+.footer__location {
+  max-width: 302px;
+}
+.footer__map {
+  margin: 33px 0;
+}
+.footer__map:last-child {
+  margin-bottom: 0px;
+}
+.footer__img {
+  max-width: 100%;
+  max-height: 310px;
+  vertical-align: bottom;
+  background-size: cover;
 }/*# sourceMappingURL=main.css.map */
