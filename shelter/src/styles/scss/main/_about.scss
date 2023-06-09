@@ -2,30 +2,24 @@
 	&__content {
 		width: 100%;
 		display: flex;
+		justify-content: center;
 		align-items: center;
-		padding: 80px 0 100px;
+		margin-top: 10px;
 	}
 	&__left {
-		width: 50%;
+		margin-left: 167px;
 	}
 		&__img {
-		position: relative;
-		top: 50%;
-		left: 30%;
 		max-width: 100%;
 		height: auto;
 		background-size: cover;
 	}
 	&__right {
 		width: 50%;
+		margin-left: 120px;
 	}
 	&__title {
-		font-size: 35px;
 		width: 51%;
-		font-weight: 400;
-		line-height: 130%;
-		letter-spacing: 0.06em;
-		color: #545454;
 	}
 	&__text {
 		font-family: 'Arial';

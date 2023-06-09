@@ -1,0 +1,62 @@
+.footer {
+	background: url("../../../img/header__startScreen/background__start.png"), linear-gradient(130deg, rgba(91, 72, 58, 1), rgba(38, 36, 37, 1), rgba(33, 31, 32, 1));
+	&__position {
+		display: flex;
+		justify-content: space-between;
+		align-items: flex-end;
+	}
+	&__content {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		width: 740px;
+		padding: 40px 0 60px;
+	}
+	&__contacts {
+		max-width: 279px;
+	}
+	&__title {
+		font-size: 35px;
+		font-weight: 400;
+		line-height: 45px;
+		letter-spacing: 0.06em;
+		color: #fff;
+	}
+	&__linkEmail {
+		margin: 40px 0;
+	}
+	&__location {
+		max-width: 302px;
+	}
+	&__map {
+		margin: 33px 0;
+		&:last-child {
+			margin-bottom: 0px;
+		}
+	}
+	&__img {
+		max-width: 100%;
+		max-height: 310px;
+		vertical-align: bottom;
+		background-size: cover;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

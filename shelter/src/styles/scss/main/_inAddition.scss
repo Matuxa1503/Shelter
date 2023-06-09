@@ -1,0 +1,69 @@
+.inAddition {
+	background-color: #F6F6F6;
+	&__content {
+		width: 100%;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+
+	&__img {
+		max-width: 100%;
+		height: auto;
+		background-size: cover;
+		margin-left: -20px;
+	}
+
+	&__right {
+		max-width: 30%;
+		margin-left: 30px;
+	}
+
+	&__subtitle {
+		font-size: 15px;
+		font-weight: 400;
+		line-height: 110%;
+		letter-spacing: 0.06em;
+		margin: 20px 0;
+	}
+
+	&__card {
+		display: inline-block;
+		background-color: #F1CDB3;
+		color: #545454;
+		width: 349px;
+		height: 43px;
+		border-radius: 9px;
+		margin-bottom: 20px;
+		cursor: pointer;
+		&:hover {
+			background-color: #FDDCC4;
+			transition: 0.3s;
+		}
+		&__content {
+			display: flex;
+			width: 100%;
+			padding: 10px 15px;
+		}
+		&__num {
+			font-size: 20px;
+			font-weight: 400;
+			line-height: 23px;
+			letter-spacing: 0.06em;
+			margin-left: 14px;
+		}
+	}
+	&__text {
+		font-family: Arial;
+		font-size: 12px;
+		font-style: italic;
+		font-weight: 400;
+		line-height: 18px;
+		color: #B2B2B2;
+	}
+}
+
+
+
+
+

@@ -1,0 +1,51 @@
+html {scroll-behavior: smooth;}
+body{font-family: Georgia, sans-serif;font-size: 16px;line-height: 1;}
+*{padding: 0; margin: 0; border: 0;}
+*,*:before,*:after{-moz-box-sizing: border-box;-webkit-box-sizing: border-box;box-sizing: border-box;}
+input,button,textarea{font-family: inherit;}
+button{cursor: pointer;}
+ul li{list-style: none;}
+h1,h2,h3,h4,h5,h6{font-size:inherit;}
+a,a:visited{text-decoration: none;cursor: pointer;}
+p{width: auto}
+
+.container {
+	max-width: 1280px;
+	padding: 0 40px;
+	margin: 0 auto;
+}
+
+.marginBlockDef {
+	padding: 80px 0 100px;
+}
+
+.defaultTitle {
+	font-size: 35px;
+	font-weight: 400;
+	line-height: 130%;
+	letter-spacing: 0.06em;
+	color: #545454;
+}
+
+.deg {
+	transform: rotate(180deg);
+}
+
+.footerBlockDef {
+	margin-top: 16px;
+}
+
+.footerPosDef {
+	display: flex;
+	align-items: center;
+	color: #F1CDB3;
+}
+
+.footerStyleDef {
+	margin-left: 20px;
+	font-size: 20px;
+	font-weight: 400;
+	line-height: 23px;
+	letter-spacing: 0.06em;
+}
+
