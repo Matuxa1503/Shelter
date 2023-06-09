@@ -1,3 +1,4 @@
+html {scroll-behavior: smooth;}
 body{font-family: Georgia, sans-serif;font-size: 16px;line-height: 1;}
 *{padding: 0; margin: 0; border: 0;}
 *,*:before,*:after{-moz-box-sizing: border-box;-webkit-box-sizing: border-box;box-sizing: border-box;}
@@ -26,6 +27,10 @@ p{width: auto}
 	color: #545454;
 }
 
+.deg {
+	transform: rotate(180deg);
+}
+
 .footerBlockDef {
 	margin-top: 16px;
 }
@@ -43,3 +48,4 @@ p{width: auto}
 	line-height: 23px;
 	letter-spacing: 0.06em;
 }
+

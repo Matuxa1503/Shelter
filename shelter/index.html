@@ -4,8 +4,10 @@
 		<meta charset="UTF-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<link rel="stylesheet" href="src/styles/css/main.css">
 		<title>Shelter</title>
+		<link rel="icon" href="img/startScreen/start-screen-puppy.png">
+		<link rel="stylesheet" href="src/styles/css/main.css">
+		<script defer src="index.js"></script>
 	</head>
 
 	<body>
@@ -25,13 +27,13 @@
 										<a href="#" class="menu__link firstLink">About the shelter</a>
 									</li>
 									<li class="menu__item">
-										<a href="#" class="menu__link">Our pets</a>
+										<a href="index2.html" class="menu__link">Our pets</a>
 									</li>
 									<li class="menu__item">
-										<a href="#" class="menu__link">Help the shelter</a>
+										<a href="#Help" class="menu__link">Help the shelter</a>
 									</li>
 									<li class="menu__item">
-										<a href="#" class="menu__link">Contacts</a>
+										<a href="#Contacts" class="menu__link">Contacts</a>
 									</li>
 								</ul>
 							</nav>
@@ -45,7 +47,7 @@
 							<div class="start__screen__left">
 							<h2 class="start__screen__title">Not only people need a house</h2>
 							<p class="start__screen-text">We offer to give a chance to a little and nice puppy with an extremely wide and open heart. He or she will love you more than anybody else in the world, you will see!</p>
-							<button class="start__screen-btn">Make a friend</button>
+							<a href="#scrollFriends" class="start__screen-btn">Make a friend</a>
 							</div>
 							<div class="start__screen__right">
 							<img class="start__screen__img" src="img/startScreen/start-screen-puppy.png" alt="">
@@ -71,13 +73,16 @@
 					</div>  <!-- /container -->
 				</section>
 
-				<section class="ourFriends marginBlockDef">
+				<section class="ourFriends marginBlockDef" id="scrollFriends">
 					<div class="container">
 						<div class="ourFriends__content">
 							<h3 class="ourFriends__title defaultTitle">
 								Our friends who<br>are looking for a house</h3>
 							
 								<div class="ourFriends__slider">
+								<div class="ourFriends__arrow-left">
+									<img class="ourFriends__arrow" src="img/ourFriends/Arrow.svg" alt="">
+								</div>
 								<div class="ourFriends__item">
 									<img class="ourFriends__item__img" src="img/ourFriends/katrine.png" alt="">
 									<div class="ourFriends__item__title">Katrine</div>
@@ -93,6 +98,9 @@
 									<div class="ourFriends__item__title">Woody</div>
 									<button class="ourFriends__item__btn">Learn more</button>
 								</div>
+								<div class="ourFriends__arrow-right">
+									<img class="ourFriends__arrow deg" src="img/ourFriends/Arrow.svg" alt="">
+								</div>
 							</div>  <!-- /ourFriends__slider -->
 
 							<button class="ourFriends__btn">Get to know the rest</button>
@@ -100,7 +108,7 @@
 					</div>  <!-- /container -->
 				</section>
 			
-				<section class="help marginBlockDef">
+				<section class="help marginBlockDef" id="Help">
 					<div class="container">
 						<div class="help__content">
 							<h3 class="help__title defaultTitle">
@@ -173,7 +181,7 @@
 				</section>
 			</main>
 			
-			<footer class="footer">
+			<footer class="footer" id="Contacts">
 				<div class="container">
 					<div class="footer__position">
 						<div class="footer__content">
