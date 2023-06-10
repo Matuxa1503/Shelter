@@ -5,11 +5,13 @@
 		justify-content: space-between;
 		align-items: center;
 	}
+
 	&__logo {
 		text-align: center;
 		width: 200px;
 		height: 60px;
 	}
+
 	&__title {
 		font-size: 32px;
 		line-height: 1.1;
@@ -17,25 +19,38 @@
 		font-weight: 400;
 		color: #F1CDB3;
 		margin-bottom: 11px;
+		&_mainPets-color a {
+			color:#545454;
+		}
 	}
+
 	&__subtitle {
 		font-family: Arial, sans-serif;
 		color: #fff;
 		font-size: 13px;
 		letter-spacing: 0.1em;
+		&_mainPets-color a {
+			color: #292929;
+		}
 	}
 }
+// .header
 
 .menu {
 	&__list {
 		display: flex;
 	}
+
 	&__item {
 		margin-right: 33px;
 		&:last-child {
 			margin-right: 0;
 		}
+		&_mainPets-color {
+			color: #545454;
+		}
 	}
+
 	&__link {
 		font-family: Arial, sans-serif;
 		font-size: 15px;
@@ -44,10 +59,18 @@
 			color: #FAFAFA;
 			transition: 0.3s;
 		}
+		&_mainPets-color {
+			color: #545454;
+			&:hover {
+				color: #292929;
+				transition: 0.3s;
+			}
+		}
 	}
 }
+// .menu
 
-.firstLink {
+.active {
 	position: relative;
 	color: #FAFAFA;
 	&:after {
@@ -58,6 +81,9 @@
 		width: 100%;
 		height: 3px;
 		background-color: #F1CDB3;
+	}
+	&_mainPets-color {
+		color: #292929;
 	}
 }
 
