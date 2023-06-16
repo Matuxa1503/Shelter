@@ -1,0 +1,27 @@
+@media screen and (max-width: 768px) {
+	.container {
+		padding: 0 30px;
+	}
+
+	.start__screen {
+	&-display {
+		display: block;
+	}
+	&__left {
+		width: 65%;
+		margin: 0 18.05% 105px;
+	}
+	&-text {
+		margin-bottom: 45px;
+	}
+	&-btn {
+		margin: 0 auto;
+	}
+	&__img {
+		width: 80%;
+		margin: 0 0 0 20%;
+		height: auto;
+		vertical-align:bottom
+	}
+	}
+}// end @media screen and (max-width: 768px)

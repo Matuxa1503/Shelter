@@ -177,16 +177,16 @@ p {
   margin: -45px 40px 0 7px;
 }
 .start__screen__title {
-  font-size: 44px;
+  font-size: 2.75rem;
   font-weight: 400;
-  width: 70%;
+  width: 85%;
   line-height: 130%;
   margin-bottom: 42px;
   color: #fff;
 }
 .start__screen-text {
   margin-bottom: 42px;
-  font-size: 15px;
+  font-size: 0.94rem;
   line-height: 160%;
   font-family: "Arial";
   color: #CDCDCD;
@@ -453,4 +453,29 @@ p {
   max-height: 310px;
   vertical-align: bottom;
   background-size: cover;
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    padding: 0 30px;
+  }
+  .start__screen-display {
+    display: block;
+  }
+  .start__screen__left {
+    width: 65%;
+    margin: 0 18.05% 105px;
+  }
+  .start__screen-text {
+    margin-bottom: 45px;
+  }
+  .start__screen-btn {
+    margin: 0 auto;
+  }
+  .start__screen__img {
+    width: 80%;
+    margin: 0 0 0 20%;
+    height: auto;
+    vertical-align: bottom;
+  }
 }
