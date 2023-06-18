@@ -7,12 +7,20 @@
 			width: 581px;
 		}
 	}
+
+	.help__list {
+		gap: 51px 90px;
+	}
 } // end @media screen and (max-width: 1120px)
 
 
 @media screen and (max-width: 1000px) {
 	.about__left {
 		margin-left: 10%;
+	}
+
+	.help__list {
+		gap: 51px 67px;
 	}
 } // end @media screen and (max-width: 1000px)
 
@@ -26,6 +34,16 @@
 			width: 90%;
 		}
 	}
+
+	.help {
+		&__item {
+			width: 26.333%;
+		}
+		&__list {
+			gap: 51px 44px;
+		}
+	}
+
 } // end @media screen and (max-width: 900px)
 
 
