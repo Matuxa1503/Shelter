@@ -354,6 +354,7 @@ p {
 .inAddition__content {
   width: 100%;
   display: flex;
+  gap: 0 30px;
   justify-content: center;
   align-items: center;
 }
@@ -361,14 +362,12 @@ p {
   max-width: 100%;
   height: auto;
   background-size: cover;
-  margin-left: -20px;
 }
 .inAddition__right {
-  max-width: 30%;
-  margin-left: 30px;
+  width: 35%;
 }
 .inAddition__subtitle {
-  font-size: 15px;
+  font-size: 0.9375rem;
   font-weight: 400;
   line-height: 110%;
   letter-spacing: 0.06em;
@@ -394,18 +393,19 @@ p {
   padding: 10px 15px;
 }
 .inAddition__card__num {
-  font-size: 20px;
+  font-size: 1.25rem;
   font-weight: 400;
-  line-height: 23px;
+  line-height: 1.43rem;
   letter-spacing: 0.06em;
   margin-left: 14px;
 }
 .inAddition__text {
   font-family: Arial;
-  font-size: 12px;
+  max-width: 100%;
+  font-size: 0.75rem;
   font-style: italic;
   font-weight: 400;
-  line-height: 18px;
+  line-height: 1.125rem;
   color: #B2B2B2;
 }
 
@@ -470,6 +470,26 @@ p {
   }
   .help__list {
     gap: 51px 67px;
+  }
+  .inAddition__img {
+    margin-left: -40px;
+  }
+  .inAddition__content {
+    gap: 0 20px;
+  }
+}
+@media screen and (max-width: 960px) {
+  .inAddition__content {
+    flex-direction: column;
+  }
+  .inAddition__img {
+    order: 2;
+    margin-left: 2.3%;
+  }
+  .inAddition__right {
+    width: 51%;
+    order: 1;
+    margin: 0 0 60px 0;
   }
 }
 @media screen and (max-width: 900px) {
