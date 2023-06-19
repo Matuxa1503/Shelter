@@ -11,6 +11,10 @@
 	.help__list {
 		gap: 51px 90px;
 	}
+
+	.footer__contacts {
+		margin-right: 8%;
+	}
 } // end @media screen and (max-width: 1120px)
 
 
@@ -29,6 +33,21 @@
 		}
 		&__content {
 			gap: 0 20px;
+		}
+	}
+
+	.footer {
+		&__position {
+			flex-wrap: wrap;
+		}
+		&__content {
+			width: 100%;
+			justify-content: space-around;
+			margin: 0 32px 3px;
+		}
+		&__img-block {
+			width: 100%;
+			text-align: center;
 		}
 	}
 } // end @media screen and (max-width: 1000px)
@@ -131,6 +150,5 @@
 			width: 100%;
 		}
 	} //=== end About =====
-
 
 }// end @media screen and (max-width: 768px)
