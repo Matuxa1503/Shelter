@@ -1,3 +1,13 @@
+@media screen and (max-width: 1279px) {
+	.ourPets {
+		&__slider {
+			height: 1400px;
+			justify-content: center;
+		}
+	}
+}// end @media screen and (max-width: 1280px)
+
+
 @media screen and (max-width: 1112px) {
 	.ourFriends {
 		&__items-position {
@@ -50,6 +60,10 @@
 			text-align: center;
 		}
 	}
+
+	.ourPets__slider {
+		column-gap: 36px;
+	}
 } // end @media screen and (max-width: 1000px)
 
 
@@ -67,6 +81,21 @@
 			order: 1;
 			margin: 0 0 60px 0;
 		}
+	}
+
+	.ourPets {
+		&__title {
+			margin-bottom: 28px;
+		}
+		&__slider {
+			height: 1395px;
+			overflow: hidden;
+			justify-content: center;
+		}
+	}
+
+	.nav {
+		margin: 10px auto 0;
 	}
 }// end @media screen and (max-width: 960px)
 

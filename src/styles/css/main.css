@@ -421,7 +421,7 @@ p {
   display: flex;
   align-items: center;
   width: 75%;
-  padding: 40px 0 50px;
+  padding: 15px 0 50px;
 }
 .footer__contacts {
   margin-right: 18%;
@@ -457,6 +457,12 @@ p {
   background-size: cover;
 }
 
+@media screen and (max-width: 1279px) {
+  .ourPets__slider {
+    height: 1400px;
+    justify-content: center;
+  }
+}
 @media screen and (max-width: 1112px) {
   .ourFriends__items-position {
     flex-wrap: wrap;
@@ -496,6 +502,10 @@ p {
     width: 100%;
     text-align: center;
   }
+  .ourPets__slider {
+    -moz-column-gap: 36px;
+         column-gap: 36px;
+  }
 }
 @media screen and (max-width: 960px) {
   .inAddition__content {
@@ -509,6 +519,17 @@ p {
     width: 51%;
     order: 1;
     margin: 0 0 60px 0;
+  }
+  .ourPets__title {
+    margin-bottom: 28px;
+  }
+  .ourPets__slider {
+    height: 1395px;
+    overflow: hidden;
+    justify-content: center;
+  }
+  .nav {
+    margin: 10px auto 0;
   }
 }
 @media screen and (max-width: 900px) {
