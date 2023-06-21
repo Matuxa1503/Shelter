@@ -5,38 +5,50 @@
 		justify-content: space-between;
 		align-items: flex-end;
 	}
+
 	&__content {
 		display: flex;
-		justify-content: space-between;
 		align-items: center;
-		width: 740px;
-		padding: 40px 0 60px;
+		width: 75%;
+		padding: 15px 0 50px;
 	}
+
 	&__contacts {
-		max-width: 279px;
+		margin-right: 18%;
 	}
+
 	&__title {
-		font-size: 35px;
+		font-size: 2.18rem;
 		font-weight: 400;
-		line-height: 45px;
+		line-height: 1.2;
 		letter-spacing: 0.06em;
 		color: #fff;
 	}
+
 	&__linkEmail {
-		margin: 40px 0;
+		width: 251px;
+		margin: 2.9rem 0;
 	}
-	&__location {
-		max-width: 302px;
+	
+	&__phone {
+		width: 239px;
 	}
+
 	&__map {
-		margin: 33px 0;
+		width: 302px;
+		margin: 2.5rem 0;
 		&:last-child {
 			margin-bottom: 0px;
 		}
 	}
+
+	&__img-block {
+		min-width: 25%;
+	}
+
 	&__img {
 		max-width: 100%;
-		max-height: 310px;
+		max-height: 92.2%;
 		vertical-align: bottom;
 		background-size: cover;
 	}

@@ -1,0 +1,183 @@
+@media screen and (max-width: 1279px) {
+	.ourPets {
+		&__slider {
+			height: 1400px;
+			justify-content: center;
+		}
+	}
+}// end @media screen and (max-width: 1280px)
+
+
+@media screen and (max-width: 1112px) {
+	.ourFriends {
+		&__items-position {
+			flex-wrap: wrap;
+		}
+		&__items-position {
+			width: 581px;
+		}
+	}
+
+	.help__list {
+		gap: 51px 90px;
+	}
+
+	.footer__contacts {
+		margin-right: 8%;
+	}
+} // end @media screen and (max-width: 1120px)
+
+
+@media screen and (max-width: 1000px) {
+	.about__left {
+		margin-left: 10%;
+	}
+
+	.help__list {
+		gap: 51px 67px;
+	}
+
+	.inAddition {
+		&__img {
+			margin-left: -40px;
+		}
+		&__content {
+			gap: 0 20px;
+		}
+	}
+
+	.footer {
+		&__position {
+			flex-wrap: wrap;
+		}
+		&__content {
+			width: 100%;
+			justify-content: space-around;
+			margin: 0 32px 3px;
+		}
+		&__img-block {
+			width: 100%;
+			text-align: center;
+		}
+	}
+
+	.ourPets__slider {
+		column-gap: 36px;
+	}
+} // end @media screen and (max-width: 1000px)
+
+
+@media screen and (max-width: 960px) {
+	.inAddition {
+		&__content {
+			flex-direction: column;
+		}
+		&__img {
+			order: 2;
+			margin-left: 2.3%;
+		}
+		&__right {
+			width: 51%;
+			order: 1;
+			margin: 0 0 60px 0;
+		}
+	}
+
+	.ourPets {
+		&__title {
+			margin-bottom: 28px;
+		}
+		&__slider {
+			height: 1395px;
+			overflow: hidden;
+			justify-content: center;
+		}
+	}
+
+	.nav {
+		margin: 10px auto 0;
+	}
+}// end @media screen and (max-width: 960px)
+
+
+@media screen and (max-width: 900px) {
+	.about {
+		&__left {
+			margin-left: 8%;
+		}
+		&__text {
+			width: 90%;
+		}
+	}
+
+	.help {
+		&__item {
+			width: 26.333%;
+		}
+		&__list {
+			gap: 51px 44px;
+		}
+	}
+} // end @media screen and (max-width: 900px)
+
+
+@media screen and (max-width: 800px) {
+	.container {
+		padding: 0 30px;
+	}
+	.about__left {
+		margin-left: 5%;
+	}
+} // end @media screen and (max-width: 800px)
+
+
+@media screen and (max-width: 768px) {
+	.container {
+		padding: 0 30px;
+	}
+		//=== StartScreen =====
+	.start__screen {
+	&-display {
+		display: block;
+	}
+	&__left {
+		width: 65%;
+		margin: 0 18.05% 105px;
+	}
+	&-text {
+		margin-bottom: 45px;
+	}
+	&-btn {
+		margin: 0 auto;
+	}
+	&__img {
+		width: 80%;
+		margin: 0 0 0 20%;
+		height: auto;
+		vertical-align:bottom
+	}
+	} //=== end StartScreen =====
+
+	//=== About =====
+	.about {
+		&__content {
+		display: flex;
+		flex-direction: column;
+		}
+
+		&__left {
+			order: 2;
+			margin-left: 0;
+		}
+
+		&__right {
+			order: 1;
+			margin: 0 20% 80px;
+		}
+
+		&__text {
+			width: 100%;
+		}
+	} //=== end About =====
+
+}// end @media screen and (max-width: 768px)

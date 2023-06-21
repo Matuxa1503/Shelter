@@ -3,29 +3,34 @@
 	&__content {
 		padding-top: 60px;
 	}
+
 	&-display {
 		display: flex;
 		align-items: center;
 	}
+
 	&__left {
 		width: 39%;
 		margin: -45px 40px 0 7px;
 	}
+
 	&__title {
-		font-size: 44px;
+		font-size: 2.75rem;
 		font-weight: 400;
-		width: 70%;
+		width: 85%;
 		line-height: 130%;
 		margin-bottom: 42px;
 		color: #fff;
 	}
+
 	&-text {
 		margin-bottom: 42px;
-		font-size: 15px;
+		font-size: 0.94rem;
 		line-height: 160%;
 		font-family: 'Arial';
 		color: #CDCDCD;
 	}
+
 	&-btn {
 		display: block;
 		width: 207px;
@@ -39,14 +44,14 @@
 		&:hover {
 		background-color: #FDDCC4;
 		transition: 0.3s;
+		}
 	}
-	}
+	
 	&__img {
 		max-width: 100%;
 		height: auto;
 		margin-top: 34px;
 		vertical-align:bottom
-		
 	}
 }
 
