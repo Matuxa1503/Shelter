@@ -242,6 +242,12 @@
 			width: 100%;
 		}
 	}
+
+	.about {
+		&__right {
+			margin: 0 13% 80px;
+		}
+	}
 }// end @media screen and (max-width: 670px)
 
 
@@ -252,12 +258,26 @@
 			margin: 0 12.05% 105px;
 		}
 	}
+
+	.about {
+		&__right {
+			margin: 0 5% 80px;
+		}
+	}
 }// end @media screen and (max-width: 420px)
 
 
 @media screen and (max-width: 376px) {
 	.container {
 		padding: 0 10px;
+	}
+
+	.marginBlockDef {
+		padding: 40px 0;
+	}
+
+	.defaultTitle {
+		font-size: 1.56rem;
 	}
 
 	.header__wrapper {
@@ -274,6 +294,19 @@
 			font-size: 1.56rem;
 			letter-spacing: 0.06em;
 			padding: 0 50px;
+		}
+	}
+
+	.about {
+		&__content {
+			text-align: center;
+		}
+		&__img {
+			max-width: 260px;
+		}
+		&__right {
+			width: 100%;
+			margin: 0 0 40px;
 		}
 	}
 }// end @media screen and (max-width: 375px)

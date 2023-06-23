@@ -483,16 +483,28 @@ p {
   .start__screen__title {
     width: 100%;
   }
+  .about__right {
+    margin: 0 13% 80px;
+  }
 }
 @media screen and (max-width: 420px) {
   .start__screen__left {
     width: 75%;
     margin: 0 12.05% 105px;
   }
+  .about__right {
+    margin: 0 5% 80px;
+  }
 }
 @media screen and (max-width: 376px) {
   .container {
     padding: 0 10px;
+  }
+  .marginBlockDef {
+    padding: 40px 0;
+  }
+  .defaultTitle {
+    font-size: 1.56rem;
   }
   .header__wrapper {
     margin: 0 10px;
@@ -506,5 +518,15 @@ p {
     font-size: 1.56rem;
     letter-spacing: 0.06em;
     padding: 0 50px;
+  }
+  .about__content {
+    text-align: center;
+  }
+  .about__img {
+    max-width: 260px;
+  }
+  .about__right {
+    width: 100%;
+    margin: 0 0 40px;
   }
 }
