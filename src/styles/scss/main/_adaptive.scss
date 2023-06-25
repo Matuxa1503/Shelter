@@ -79,7 +79,7 @@
 		&__right {
 			width: 51%;
 			order: 1;
-			margin: 0 0 60px 0;
+			margin: 0 auto 60px ;
 		}
 	}
 
@@ -274,6 +274,15 @@
 			margin: 0 13% 80px;
 		}
 	}
+
+	.inAddition {
+		&__content {
+			gap: 0 0;
+		}
+		&__right {
+			width: 380px;
+		}
+	}
 }// end @media screen and (max-width: 670px)
 
 
@@ -297,6 +306,28 @@
 		}
 		&__list {
 			gap: 51px 100px;
+		}
+	}
+
+	.inAddition {
+		&__img {
+			max-width: 260px;
+		}
+
+		&__right {
+			width: 100%;
+			margin: 0 auto 44px;
+		}
+
+		&__card {
+			width: 300px;
+			
+			&__num {
+				font-size: 0.93rem;
+			}
+		}
+		&__text {
+			width: 100%;
 		}
 	}
 }// end @media screen and (max-width: 420px)
@@ -369,6 +400,18 @@
 			&__img {
 				margin-bottom: 25px;
 			}
+		}
+	}
+
+	.inAddition {
+		&__right {
+			text-align: center;
+		}
+		&__subtitle {
+			letter-spacing: normal;
+		}
+		&__card {
+			width: 280px;
 		}
 	}
 }// end @media screen and (max-width: 375px)

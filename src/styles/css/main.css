@@ -373,11 +373,11 @@ p {
   width: 35%;
 }
 .inAddition__subtitle {
-  font-size: 0.9375rem;
+  font-size: 0.9rem;
   font-weight: 400;
   line-height: 110%;
   letter-spacing: 0.06em;
-  margin: 20px 0;
+  margin: 23px 0;
 }
 .inAddition__card {
   display: inline-block;
@@ -524,7 +524,7 @@ p {
   .inAddition__right {
     width: 51%;
     order: 1;
-    margin: 0 0 60px 0;
+    margin: 0 auto 60px;
   }
   .ourPets__title {
     margin-bottom: 28px;
@@ -671,6 +671,12 @@ p {
   .about__right {
     margin: 0 13% 80px;
   }
+  .inAddition__content {
+    gap: 0 0;
+  }
+  .inAddition__right {
+    width: 380px;
+  }
 }
 @media screen and (max-width: 420px) {
   .start__screen__left {
@@ -685,6 +691,22 @@ p {
   }
   .help__list {
     gap: 51px 100px;
+  }
+  .inAddition__img {
+    max-width: 260px;
+  }
+  .inAddition__right {
+    width: 100%;
+    margin: 0 auto 44px;
+  }
+  .inAddition__card {
+    width: 300px;
+  }
+  .inAddition__card__num {
+    font-size: 0.93rem;
+  }
+  .inAddition__text {
+    width: 100%;
   }
 }
 @media screen and (max-width: 376px) {
@@ -739,5 +761,14 @@ p {
   }
   .help__item__img {
     margin-bottom: 25px;
+  }
+  .inAddition__right {
+    text-align: center;
+  }
+  .inAddition__subtitle {
+    letter-spacing: normal;
+  }
+  .inAddition__card {
+    width: 280px;
   }
 }
