@@ -179,6 +179,32 @@
 			width: 100%;
 		}
 	} //=== end About =====
+
+	.ourFriends {
+		&__slider {
+			flex-wrap: wrap;
+		}
+
+		&__arrow {
+			margin-top: 20px;
+		}
+
+		&__arrow-left {
+			order: 1;
+			margin-left: 58px;
+		}
+
+		&__arrow-right {
+			order: 2;
+			margin-right: 58px;
+		}
+
+		&__items-position {
+			width: 655px;
+			justify-content: space-around;
+			margin: 0 auto;
+		}
+	}
 }// end @media screen and (max-width: 768px)
 
 
@@ -281,7 +307,7 @@
 	}
 
 	.header__wrapper {
-		margin: 0 10px;
+		margin: 0 10px 0 0;
 	}
 
 	.start__screen {
@@ -295,6 +321,10 @@
 			letter-spacing: 0.06em;
 			padding: 0 50px;
 		}
+		&__img {
+			width: 87%;
+			margin: 0 0 0 13%;
+		}
 	}
 
 	.about {
@@ -307,6 +337,12 @@
 		&__right {
 			width: 100%;
 			margin: 0 0 40px;
+		}
+	}
+
+	.ourFriends {
+		&__slider {
+			margin: -18px 0 54px 0;
 		}
 	}
 }// end @media screen and (max-width: 375px)
