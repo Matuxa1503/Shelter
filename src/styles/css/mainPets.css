@@ -514,6 +514,12 @@ p {
   .about__right {
     margin: 0 5% 80px;
   }
+  .help__item__title {
+    font-size: 0.94rem;
+  }
+  .help__list {
+    gap: 51px 100px;
+  }
 }
 @media screen and (max-width: 376px) {
   .container {
@@ -554,5 +560,18 @@ p {
   }
   .ourFriends__slider {
     margin: -18px 0 54px 0;
+  }
+  .help__list {
+    gap: 0 0;
+  }
+  .help__title {
+    margin-bottom: 42px;
+  }
+  .help__item {
+    width: 50%;
+    margin-bottom: 20px;
+  }
+  .help__item__img {
+    margin-bottom: 25px;
   }
 }
