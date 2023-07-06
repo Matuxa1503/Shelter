@@ -30,6 +30,7 @@
 		&__content {
 			width: 100%;
 			justify-content: space-around;
+			margin-bottom: 50px;
 		}
 		&__contacts {
 			width: 278px;
@@ -259,7 +260,6 @@
 			left: 0;
 			height: 10%;
 			width: 100%;
-			border-radius: 10px;
 			background-color: #F1CDB3;
 		}
 
@@ -269,7 +269,6 @@
 			left: 0;
 			height: 10%;
 			width: 100%;
-			border-radius: 10px;
 			background-color: #F1CDB3;
 			transform: scale(1) translate(0,-35%);
 		}
@@ -281,10 +280,21 @@
 			bottom: 25%;
 			height: 10%;
 			width: 100%;
-			border-radius: 10px;
 			background-color: #F1CDB3;
-		}// .Burger menu
+		}
+
+		.burgerColor {
+			background-color: #000;
+		}
+	}// .Burger menu
+
+	.burgerColor::after,
+	.burgerColor::before {
+		background-color: #000;
 	}
+
+
+
 
 	.start__screen {
 		&__title {

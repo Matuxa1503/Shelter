@@ -496,6 +496,7 @@ p {
   .footer__content {
     width: 100%;
     justify-content: space-around;
+    margin-bottom: 50px;
   }
   .footer__contacts {
     width: 278px;
@@ -681,7 +682,6 @@ p {
     left: 0;
     height: 10%;
     width: 100%;
-    border-radius: 10px;
     background-color: #F1CDB3;
   }
   .menu__icon .span__burger1 {
@@ -690,7 +690,6 @@ p {
     left: 0;
     height: 10%;
     width: 100%;
-    border-radius: 10px;
     background-color: #F1CDB3;
     transform: scale(1) translate(0, -35%);
   }
@@ -701,8 +700,14 @@ p {
     bottom: 25%;
     height: 10%;
     width: 100%;
-    border-radius: 10px;
     background-color: #F1CDB3;
+  }
+  .menu__icon .burgerColor {
+    background-color: #000;
+  }
+  .burgerColor::after,
+  .burgerColor::before {
+    background-color: #000;
   }
   .start__screen__title {
     width: 100%;
