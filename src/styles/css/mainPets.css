@@ -145,6 +145,10 @@ p {
   transition: 0.3s;
 }
 
+.menu__icon {
+  display: none;
+}
+
 .active {
   position: relative;
   color: #FAFAFA;
@@ -248,47 +252,58 @@ p {
 .footer {
   background: url("../../../img/header__startScreen/background__start.png"), linear-gradient(130deg, rgb(91, 72, 58), rgb(38, 36, 37), rgb(33, 31, 32));
 }
+
 .footer__position {
   display: flex;
   justify-content: space-between;
-  align-items: flex-end;
+  width: 100%;
+  padding-top: 40px;
 }
+
 .footer__content {
+  width: 62%;
   display: flex;
-  align-items: center;
-  width: 75%;
-  padding: 15px 0 50px;
+  justify-content: space-between;
 }
+
 .footer__contacts {
-  margin-right: 18%;
+  width: 40%;
 }
+
 .footer__title {
+  width: 278px;
   font-size: 2.18rem;
   font-weight: 400;
   line-height: 1.2;
   letter-spacing: 0.06em;
   color: #fff;
+  margin-bottom: 40px;
 }
+
 .footer__linkEmail {
   width: 251px;
-  margin: 2.9rem 0;
+  margin-bottom: 40px;
 }
+
 .footer__phone {
   width: 239px;
 }
+
+.footer__location {
+  width: 40.5%;
+}
+
 .footer__map {
-  width: 302px;
-  margin: 2.5rem 0;
+  width: 300px;
+  margin-bottom: 32px;
 }
-.footer__map:last-child {
-  margin-bottom: 0px;
-}
+
 .footer__img-block {
   min-width: 25%;
 }
+
 .footer__img {
-  max-width: 100%;
-  max-height: 92.2%;
+  max-width: 300px;
   vertical-align: bottom;
   background-size: cover;
 }
@@ -309,8 +324,27 @@ p {
   .help__list {
     gap: 51px 90px;
   }
+  .footer__position {
+    display: block;
+    padding-top: 17px;
+  }
+  .footer__content {
+    width: 100%;
+    justify-content: space-around;
+    margin-bottom: 50px;
+  }
   .footer__contacts {
-    margin-right: 8%;
+    width: 278px;
+  }
+  .footer__location {
+    width: 300px;
+  }
+  .footer__img-block {
+    width: 100%;
+    text-align: center;
+  }
+  .footer__map {
+    margin-bottom: 25px;
   }
 }
 @media screen and (max-width: 1000px) {
@@ -325,18 +359,6 @@ p {
   }
   .inAddition__content {
     gap: 0 20px;
-  }
-  .footer__position {
-    flex-wrap: wrap;
-  }
-  .footer__content {
-    width: 100%;
-    justify-content: space-around;
-    margin: 0 32px 3px;
-  }
-  .footer__img-block {
-    width: 100%;
-    text-align: center;
   }
   .ourPets__slider {
     -moz-column-gap: 36px;
@@ -354,7 +376,7 @@ p {
   .inAddition__right {
     width: 51%;
     order: 1;
-    margin: 0 0 60px 0;
+    margin: 0 auto 60px;
   }
   .ourPets__title {
     margin-bottom: 28px;
@@ -427,5 +449,211 @@ p {
   }
   .about__text {
     width: 100%;
+  }
+  .ourFriends__slider {
+    flex-wrap: wrap;
+  }
+  .ourFriends__arrow {
+    margin-top: 20px;
+  }
+  .ourFriends__arrow-left {
+    order: 1;
+    margin-left: 58px;
+  }
+  .ourFriends__arrow-right {
+    order: 2;
+    margin-right: 58px;
+  }
+  .ourFriends__items-position {
+    width: 655px;
+    justify-content: space-around;
+    margin: 0 auto;
+  }
+}
+@media screen and (max-width: 710px) {
+  .menu__item {
+    margin-right: 18px;
+  }
+  .footer__content {
+    display: block;
+  }
+  .footer__contacts {
+    margin: 0 auto 40px;
+  }
+  .footer__title {
+    text-align: center;
+  }
+  .footer__location {
+    margin: 0 auto 40px;
+    padding-left: 10px;
+  }
+  .footer__linkEmail {
+    margin-left: 10px;
+  }
+  .footer__phone {
+    margin-left: 17px;
+  }
+  .footer__map {
+    margin-left: -10px;
+    margin-bottom: 42px;
+  }
+}
+@media screen and (max-width: 670px) {
+  .menu {
+    display: none;
+  }
+  .menu__icon {
+    display: block;
+    position: relative;
+    width: 30px;
+    height: 30px;
+    margin-top: 11px;
+    cursor: pointer;
+  }
+  .menu__icon::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 10%;
+    width: 100%;
+    background-color: #F1CDB3;
+  }
+  .menu__icon .span__burger1 {
+    position: absolute;
+    top: 35%;
+    left: 0;
+    height: 10%;
+    width: 100%;
+    background-color: #F1CDB3;
+    transform: scale(1) translate(0, -35%);
+  }
+  .menu__icon::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 25%;
+    height: 10%;
+    width: 100%;
+    background-color: #F1CDB3;
+  }
+  .menu__icon .burgerColor {
+    background-color: #000;
+  }
+  .burgerColor::after,
+  .burgerColor::before {
+    background-color: #000;
+  }
+  .start__screen__title {
+    width: 100%;
+  }
+  .about__right {
+    margin: 0 13% 80px;
+  }
+  .inAddition__content {
+    gap: 0 0;
+  }
+  .inAddition__right {
+    width: 380px;
+  }
+}
+@media screen and (max-width: 420px) {
+  .start__screen__left {
+    width: 75%;
+    margin: 0 12.05% 105px;
+  }
+  .about__right {
+    margin: 0 5% 80px;
+  }
+  .help__item__title {
+    font-size: 0.94rem;
+  }
+  .help__list {
+    gap: 51px 100px;
+  }
+  .inAddition__img {
+    max-width: 260px;
+  }
+  .inAddition__right {
+    width: 100%;
+    margin: 0 auto 44px;
+  }
+  .inAddition__card {
+    width: 300px;
+  }
+  .inAddition__card__num {
+    font-size: 0.93rem;
+  }
+  .inAddition__text {
+    width: 100%;
+  }
+  .footer__img {
+    width: 260px;
+  }
+}
+@media screen and (max-width: 376px) {
+  .container {
+    padding: 0 10px;
+  }
+  .marginBlockDef {
+    padding: 40px 0;
+  }
+  .defaultTitle {
+    font-size: 1.56rem;
+  }
+  .header__wrapper {
+    margin: 0 10px 0 0;
+  }
+  .start__screen__left {
+    width: 100%;
+    margin: 0 auto 105px;
+    text-align: center;
+  }
+  .start__screen__title {
+    font-size: 1.56rem;
+    letter-spacing: 0.06em;
+    padding: 0 50px;
+  }
+  .start__screen__img {
+    width: 87%;
+    margin: 0 0 0 13%;
+  }
+  .about__content {
+    text-align: center;
+  }
+  .about__img {
+    max-width: 260px;
+  }
+  .about__right {
+    width: 100%;
+    margin: 0 0 40px;
+  }
+  .ourFriends__slider {
+    margin: -18px 0 54px 0;
+  }
+  .help__list {
+    gap: 0 0;
+  }
+  .help__title {
+    margin-bottom: 42px;
+  }
+  .help__item {
+    width: 50%;
+    margin-bottom: 20px;
+  }
+  .help__item__img {
+    margin-bottom: 25px;
+  }
+  .inAddition__right {
+    text-align: center;
+  }
+  .inAddition__subtitle {
+    letter-spacing: normal;
+  }
+  .inAddition__card {
+    width: 280px;
+  }
+  .footer__position {
+    padding-top: 35px;
   }
 }
